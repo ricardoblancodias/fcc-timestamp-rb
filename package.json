@@ -1,28 +1,21 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-
-  "name": "my-glitch-app",
-  "version": "0.0.1",
-  "description": "What am I about?",
-  "main": "server.js",
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "FCC Timestamp Project",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.15.4"
-  },
-  "engines": {
-    "node": "8.x"
+    "test": "console.log('Ok')"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/welcome-project"
+    "type": "git",
+    "url": "git+https://github.com/ricardoblancodias/fcc-timestamp-rb.git"
   },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+  "author": "Ricardo Blanco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardoblancodias/fcc-timestamp-rb/issues"
+  },
+  "homepage": "https://github.com/ricardoblancodias/fcc-timestamp-rb#readme"
 }
